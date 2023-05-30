@@ -1,1 +1,64 @@
+body{
+    background-image:  url("https://i.pinimg.com/564x/6e/8d/6a/6e8d6a8aab48bf306ae65867dd5a6464.jpg"); 
+    color: rgb(28, 32, 65);
+}
 
+@font-face {
+    font-family: Harg;
+    src: url(fonts/Hargetus.ttf);
+}
+
+h1{
+    font-family: Harg;
+    font-size: 4rem;
+    align-self: auto;
+    text-align: center;
+}
+
+.frm{
+    background-color: rgb(55, 212, 199);
+    width: 15rem;
+    border-color: darkblue;
+    border-style: dashed;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+select{
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+input{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+
+a{
+    background-color: rgba(23, 44, 231, 0.664);
+    padding: 5px;
+    border-radius: 15%;
+}
+
+a:visited{
+    color: rgb(255, 0, 0);
+}
+
+a:link{
+    color: rgb(0, 233, 0);
+}
+
+a:hover{
+    color: rgb(255, 255, 0);
+}
+
+li{
+    text-align: center;
+}
